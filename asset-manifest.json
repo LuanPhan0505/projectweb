@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/projectweb/static/css/main.14b934c4.css",
+    "main.js": "/projectweb/static/js/main.f52d8582.js",
+    "static/js/787.ec704a7a.chunk.js": "/projectweb/static/js/787.ec704a7a.chunk.js",
+    "static/media/iphone.png": "/projectweb/static/media/iphone.0611f4263a68a6aa1cb7.png",
+    "static/media/product_4.png": "/projectweb/static/media/product_4.ea0420ca9cec08d6df05.png",
+    "static/media/product_2.png": "/projectweb/static/media/product_2.d4e74f367160ec10fb34.png",
+    "static/media/product_1.png": "/projectweb/static/media/product_1.5a757396ee7ff5dd91c1.png",
+    "static/media/product_3.png": "/projectweb/static/media/product_3.be48863df18b272b8f59.png",
+    "static/media/hand_icon.png": "/projectweb/static/media/hand_icon.9c7487cecb600f30901b.png",
+    "index.html": "/projectweb/index.html",
+    "main.14b934c4.css.map": "/projectweb/static/css/main.14b934c4.css.map",
+    "main.f52d8582.js.map": "/projectweb/static/js/main.f52d8582.js.map",
+    "787.ec704a7a.chunk.js.map": "/projectweb/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14b934c4.css",
+    "static/js/main.f52d8582.js"
+  ]
+}
