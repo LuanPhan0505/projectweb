@@ -1,0 +1,60 @@
+
+.shopcategory-banner{
+    display: block;
+    margin: 30px ;
+    width: 82%;
+}
+
+.shopcategory-indexSort{
+    display: flex;
+    margin: 0px 170px  ;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+.shopcategory-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+
+.shopcategory-indexSort p span{
+    font-weight: 600;
+}
+
+
+.shopcategory-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px; 
+}
+
+/* Thêm hoặc cập nhật CSS cho phần tử Item hoặc img trong Item */
+.shopcategory-products img {
+    width: 80%; /* Đặt chiều rộng ảnh là 100% của container */
+    /* height: auto; Tự động điều chỉnh chiều cao để giữ tỷ lệ khung hình */
+}
+
+/* Đảm bảo rằng nội dung không bị tràn ra khỏi khung hình */
+
+.shopcategory-products .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+}
