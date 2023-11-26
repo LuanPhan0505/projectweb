@@ -1,25 +1,37 @@
 
-.shopcategory-banner{
+.shop-category img{
     display: block;
-    margin: 30px ;
-    width: 82%;
+    /* margin: 50px ; */
+    width: 100%;
+    margin-bottom: 50px;
 }
+
 
 .shopcategory-indexSort{
     display: flex;
-    margin: 0px 170px  ;
+    margin: 10px 150px  ;
     justify-content: space-between ;
     align-items: center;
 }
 
-.shopcategory-sort{
-    padding: 10px 20px;
-    border-radius: 40px;
+.shopcategory-sort {
+    margin: 10px;
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    border-radius: 30px;
     border: 1px solid #888;
+    display: flex;
+    /* align-items: center; Align text and image vertically */
 }
 
+
+.shopcategory-sort img {
+    width: 20%; /* Adjust the width of the image */
+    margin-left: 20px; /* Add some space between text and image */
+}
+
+
 .shopcategory-indexSort p span{
-    font-weight: 600;
+    font-weight: 400;
 }
 
 

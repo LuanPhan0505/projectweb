@@ -5,7 +5,6 @@
     margin: auto;
     padding: 0px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #f3edede3, #f1f1f33b);
 }
 
 .offers-left{
@@ -34,17 +33,25 @@
     background: #ff4141;
     border: none;
     color: white;
-    font-size :22px; 
-    font-weight: 500;
+    font-size :15px; 
+    font-weight: 600;
     margin-top: 30px; 
     cursor: pointer;
 }
 
 .offers-right{
     flex: 1;
+    max-width: 90%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding-top: 50px;
+}
 
+.offers-right img{
+    max-width: 700px; 
+    max-height: 800px; 
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    /* Add any additional styles as needed */
 }

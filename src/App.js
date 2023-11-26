@@ -7,10 +7,12 @@ import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import Footer from './Components/Footer/Footer';
-import men_banner from './Components/Assets/banner_mens.png'
-import women_banner from './Components/Assets/banner_women.png'
-import kid_banner from './Components/Assets/banner_kids.png' // cac compent de bo o duoi the 
-// Hieu ve category ; nay lien ket voi category o phan Assét 
+import iphone_banner from './Components/Assets/banner/banner_iphone.jpg'
+import mac_banner from './Components/Assets/banner/banner_mac.png'
+import watch_banner from './Components/Assets/banner/banner_watch.jpg'
+import ipad_banner from './Components/Assets/banner/banner_ipad.png'
+
+
 function App() {
   return (
     <div>
@@ -18,10 +20,10 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Menu/>}/>
-        <Route path='/iPhone' element={<ShopCategory banner={men_banner} category="men"/>}/> 
-        <Route path='/iPad' element={<ShopCategory banner={women_banner} category="women"/>}/>
-        <Route path='/Mac' element={<ShopCategory banner={kid_banner} category="kid"/>}/>
-        <Route path='/Watch' element={<ShopCategory category="Watch"/>}/>
+        <Route path='/iPhone' element={<ShopCategory banner={iphone_banner} category="men"/>}/> 
+        <Route path='/iPad' element={<ShopCategory banner={ipad_banner} category="women"/>}/>
+        <Route path='/Mac' element={<ShopCategory banner={mac_banner} category="kid"/>}/>
+        <Route path='/Watch' element={<ShopCategory banner={watch_banner} category="Watch"/>}/>
         <Route path='/Promotion' element={<ShopCategory category="{Promotion}"/>}/>
         <Route path='/Support' element={<ShopCategory category="Support"/>}/>
         <Route path="/product" element={<Product/>}>

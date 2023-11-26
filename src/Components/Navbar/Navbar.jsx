@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className='navbar'>
             <div className="nav-logo"> 
                 <img src={logo} alt=""/>
-                <Link style= {{textDecoration: 'none'}} to='/'><p> E-commerece</p> </Link>
+                <Link style= {{textDecoration: 'none'}} to='/'><p>Shoppi</p> </Link>
 
             </div>
 

@@ -4,7 +4,8 @@ import hand_icon from '../Assets/hand_icon.png'
 import arrow_icon from '../Assets/arrow.png'
 // import hero_image from '../Assets/hero_image.png'
 
-import iphone from '../Assets/iphone.png'
+// import iphone from '../Assets/iphone.png'
+import iphone15 from '../Assets/Apple15.png'
 
 const Hero = () => {
   return (
@@ -25,7 +26,7 @@ const Hero = () => {
         </div>
         </div>
         <div className='hero-right'>
-            <img src={iphone} alt=''/>
+            <img src={iphone15} alt=''/>
         </div>
     </div>
   )
